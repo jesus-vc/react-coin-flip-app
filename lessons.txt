@@ -1,0 +1,12 @@
+Storing Some lessons learned:
+
+Learning Objectives:
+
+1. Use callbacks when updating useState.
+2. Practice passing functions.
+
+Lessons:
+
+1. Jest allows us to spyOn functions where the original function is replaced by a mocked function. This mock will have enhanced functionality such as call tracking and controlled behavior. 
+2. Wrappers allows us to modify and control the returned output of the original function.
+3. We can't update objects and arrays directly. React will still still the same reference. So we need to make a copy, modify the copy, and return the copy so that React sees a new reference and thus update state. 

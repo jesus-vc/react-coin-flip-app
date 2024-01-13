@@ -1,0 +1,12 @@
+.Coin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh; /* Adjust the height as needed */
+  }
+  
+  .Coin-button {
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+  
